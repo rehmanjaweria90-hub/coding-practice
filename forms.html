@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+fieldset {
+    width: 400px;
+    margin: 100px auto;   /* centers horizontally */
+}
+</style>
+    </head>
+    <body>
+        <form action="action_page.php"><fieldset>
+<legend>User personal information</legend>
+
+</form>
+        <h1>user personal information</h1>
+        <form action ="action_page.php">
+            <lable for="fname"> full name:</lable><br>
+            <input type ="text" id="fname" name="fname"><br>
+           <lable for="email"> email:</lable><br>
+            <input type="email" id="email" name="email"><br>
+            <lable for="password"> password:</lable><br>
+            <input type="password" id="password" name="password"><br>
+           <lable for="confirm password"> confirm password:</lable><br>
+            <input type="password" id="confirm password" name="confirm password"><br>
+            <input type ="radio" id="male" name="gender" value="male">
+           <lable for="gender1">male:</lable><br>
+            <input type="radio" id="female" name="gender" value="female">
+           <lable for="gender2">female</lable><br>
+            <input type="radio" id="other" name="gender" value="other">
+           <lable for="gender3">other</lable><br>
+           <lable for="Date Of Birth"> Date Of Birth:</lable><br>
+            <input type="date" id="Date Of Birth" name="Date Of Birth"><br>
+           <lable for="address"> enter your address:</lable><br>
+             <input type="text" id="address" name="address"><br><br>
+             <input type="submit" value="Submit">
+             </fieldset>
+        </form>
+    </body>
+</html>
